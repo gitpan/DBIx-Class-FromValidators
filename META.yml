@@ -2,6 +2,8 @@ abstract: Update or Insert DBIx::Class data from Validators
 author: woremacx <woremacx at cpan dot org>
 build_requires: 
   Catalyst: 0
+  Catalyst::Model::DBIC::Schema: 0
+  Catalyst::Plugin::FormValidator::Simple: 0
   Catalyst::Test: 0
   DBD::SQLite: 0
   DBIx::Class: 0
@@ -19,4 +21,4 @@ no_index:
 requires: 
   Carp::Clan: 0
   DBIx::Class: 0
-version: 0.01
+version: 0.02

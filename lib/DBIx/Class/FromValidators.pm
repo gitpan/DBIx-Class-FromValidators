@@ -5,7 +5,7 @@ use base 'DBIx::Class';
 use Carp::Clan qw/^DBIx::Class/;
 use Scalar::Util qw(blessed);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 {
     package
